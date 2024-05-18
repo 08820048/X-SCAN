@@ -1,0 +1,11 @@
+[package]
+name = "xscan"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = {version = "1.37.0",features = ["full"]}
+bpaf = {version = "0.9.12",features = ["derive","bright-color"]}
+ansi_term = "0.12.1"
+prettytable-rs = "0.10.0"
+
